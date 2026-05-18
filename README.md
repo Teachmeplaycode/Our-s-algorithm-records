@@ -86,7 +86,7 @@
 | 成员 | 语言 / 方向 | 当前专题 | 完成情况 | 状态 |
 |:---:|:---:|:---|:---:|:---:|
 | LY | Python | Hot 100：哈希表、双指针、滑动窗口、子串、数组、矩阵、链表 | `29 / 29` | ✅ 当前阶段完成 |
-| CYF | 待定 | 待定 | `0 / 100` | ⏳ 准备中 |
+| CYF | Python · Go | Hot 100：哈希表、双指针、滑动窗口 | `0 / 9` | 🚧 开始阶段 |
 | WXQ | 待定 | 待定 | `0 / 100` | ⏳ 准备中 |
 
 > 新增语言时，不需要改整体结构：在本表把“语言 / 方向”改成对应语言，并在个人目录下新增对应文件夹即可。
@@ -112,11 +112,14 @@
 
 ### ♦ CYF
 
-<img src="https://img.shields.io/badge/Language-TBD-6366f1?style=for-the-badge" alt="TBD">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go">
 
 | 专题 | 进度 | 备注 |
 |:---|:---:|:---|
-| 待定 | `0 / ?` | ⏳ 待开始 |
+| 1-3 哈希表 | `0 / 3` | ⏳ 待开始 |
+| 4-7 双指针 | `0 / 4` | ⏳ 待开始 |
+| 8-9 滑动窗口 | `0 / 2` | ⏳ 待开始 |
 
 ### ♥ WXQ
 
