@@ -1,0 +1,87 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Our's Algorithm Records</title>
+  <desc id="desc">A dark, clean, multi-language algorithm notes banner with expandable language chips.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0.5" stop-color="#111827"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(240 90) rotate(48) scale(360 220)">
+      <stop stop-color="#6366f1" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(960 310) rotate(132) scale(420 240)">
+      <stop stop-color="#06b6d4" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="80" y1="70" x2="1120" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827" stop-opacity="0.88"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0.72"/>
+    </linearGradient>
+    <filter id="shadow" x="40" y="45" width="1120" height="340" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.38"/>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" stroke="#94a3b8" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="420" rx="36" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="36" fill="url(#grid)"/>
+  <rect width="1200" height="420" rx="36" fill="url(#glow1)"/>
+  <rect width="1200" height="420" rx="36" fill="url(#glow2)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="60" width="1056" height="300" rx="34" fill="url(#card)" stroke="#334155" stroke-opacity="0.9"/>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="111" cy="99" r="7" fill="#ef4444"/>
+    <circle cx="135" cy="99" r="7" fill="#f59e0b"/>
+    <circle cx="159" cy="99" r="7" fill="#10b981"/>
+  </g>
+
+  <g transform="translate(105 134)">
+    <text x="0" y="0" fill="#a5b4fc" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="20" font-weight="700" letter-spacing="3">ALGORITHM · TEAM · RECORDS</text>
+    <text x="0" y="68" fill="#f8fafc" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="58" font-weight="850" letter-spacing="-1.5">Our's Algorithm Records</text>
+    <text x="2" y="112" fill="#cbd5e1" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="22" font-weight="500">Friends coding LeetCode Hot 100 together · notes, templates, reviews</text>
+  </g>
+
+  <g transform="translate(105 290)">
+    <rect x="0" y="0" width="112" height="38" rx="19" fill="#3b82f6" fill-opacity="0.16" stroke="#3b82f6" stroke-opacity="0.7"/>
+    <text x="56" y="25" text-anchor="middle" fill="#dbeafe" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="700">Python</text>
+
+    <rect x="126" y="0" width="92" height="38" rx="19" fill="#6366f1" fill-opacity="0.16" stroke="#6366f1" stroke-opacity="0.7"/>
+    <text x="172" y="25" text-anchor="middle" fill="#e0e7ff" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="700">C++</text>
+
+    <rect x="232" y="0" width="90" height="38" rx="19" fill="#f59e0b" fill-opacity="0.16" stroke="#f59e0b" stroke-opacity="0.75"/>
+    <text x="277" y="25" text-anchor="middle" fill="#fef3c7" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="700">Java</text>
+
+    <rect x="336" y="0" width="132" height="38" rx="19" fill="#facc15" fill-opacity="0.12" stroke="#facc15" stroke-opacity="0.65"/>
+    <text x="402" y="25" text-anchor="middle" fill="#fef9c3" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="700">JavaScript</text>
+
+    <rect x="482" y="0" width="82" height="38" rx="19" fill="#10b981" fill-opacity="0.14" stroke="#10b981" stroke-opacity="0.75"/>
+    <text x="523" y="25" text-anchor="middle" fill="#d1fae5" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="700">Vue</text>
+
+    <rect x="578" y="0" width="98" height="38" rx="19" fill="#06b6d4" fill-opacity="0.14" stroke="#06b6d4" stroke-opacity="0.72"/>
+    <text x="627" y="25" text-anchor="middle" fill="#cffafe" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="700">MySQL</text>
+
+    <rect x="690" y="0" width="86" height="38" rx="19" fill="#f97316" fill-opacity="0.14" stroke="#f97316" stroke-opacity="0.72"/>
+    <text x="733" y="25" text-anchor="middle" fill="#ffedd5" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="700">Rust</text>
+
+    <rect x="790" y="0" width="70" height="38" rx="19" fill="#22d3ee" fill-opacity="0.13" stroke="#22d3ee" stroke-opacity="0.72"/>
+    <text x="825" y="25" text-anchor="middle" fill="#cffafe" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="700">Go</text>
+
+    <rect x="874" y="0" width="112" height="38" rx="19" fill="#8b5cf6" fill-opacity="0.14" stroke="#8b5cf6" stroke-opacity="0.75"/>
+    <text x="930" y="25" text-anchor="middle" fill="#ede9fe" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="800">+ More</text>
+  </g>
+
+  <g transform="translate(852 107)" opacity="0.78">
+    <path d="M40 0H204C226.091 0 244 17.9086 244 40V152C244 174.091 226.091 192 204 192H40C17.9086 192 0 174.091 0 152V40C0 17.9086 17.9086 0 40 0Z" fill="#020617" fill-opacity="0.7" stroke="#475569"/>
+    <path d="M55 55L92 92L55 129" stroke="#818cf8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M118 134H190" stroke="#22d3ee" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="190" cy="58" r="14" fill="#10b981" fill-opacity="0.9"/>
+    <circle cx="154" cy="58" r="14" fill="#f59e0b" fill-opacity="0.9"/>
+  </g>
+</svg>
