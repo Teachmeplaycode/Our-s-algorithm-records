@@ -10,4 +10,4 @@ class Solution:
         return TreeNode(nums[mid],left,right)
 
 sol = Solution()
-printTree(sol.sortedArrayToBST([-10,-3]))
+printTree(sol.sortedArrayToBST([5,4,6,3,7]))
