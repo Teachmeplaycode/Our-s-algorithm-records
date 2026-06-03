@@ -13,7 +13,6 @@ class Solution:
             dfs(node.left)
             dfs(node.right)
         dfs(root)
-        print(lst)
         node = TreeNode(None)
         dummy = node
         for i in range(1,len(lst)):
