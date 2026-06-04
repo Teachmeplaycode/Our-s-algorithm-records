@@ -1,11 +1,48 @@
+from collections import deque
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
         self.left = left
         self.right = right
+def createTree(*args):
+    """
+    根据层序遍历序列创建二叉树
+    支持传入列表或逐个传入元素，例如:
+    createTree([1, 2, 3, None, 4]) 或 createTree(1, 2, 3, None, 4)
+    """
+    # 兼容传入列表或可变参数
+    if len(args) == 1 and isinstance(args[0], list):
+        vals = args[0]
+    else:
+        vals = list(args)
+        
+    if not vals or vals[0] is None:
+        return None
+        
+    # 初始化根节点和队列
+    root = TreeNode(vals[0])
+    queue = deque([root])
+    i = 1
+    
+    # 层序遍历构建二叉树
+    while queue and i < len(vals):
+        node = queue.popleft()
+        
+        # 构建左子节点
+        if i < len(vals) and vals[i] is not None:
+            node.left = TreeNode(vals[i])
+            queue.append(node.left)
+        i += 1
+            
+        # 构建右子节点
+        if i < len(vals) and vals[i] is not None:
+            node.right = TreeNode(vals[i])
+            queue.append(node.right)
+        i += 1
+            
+    return root
 
 def printTree(root):
-    """以 / \ 树形打印二叉树"""
     def build(node):
         if not node:
             return [], 0, 0
