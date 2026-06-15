@@ -1,0 +1,1 @@
+[row[:] for row in board]
