@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/pyPrj/PyXt/Leetcode/hot100/LY/python",
-      "program": "d:/pyPrj/PyXt/Leetcode/hot100/LY/python/build/Debug/outDebug",
+      "cwd": "d:/pyPrj/PyXt/Leetcode/hot100/LY/cpp",
+      "program": "d:/pyPrj/PyXt/Leetcode/hot100/LY/cpp/output/${fileBasenameNoExtension}.exe",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
